@@ -1,0 +1,47 @@
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.toml
+.streamlit/secrets.toml
+
+# Local data, recordings, exports and generated sessions
+saved_sessions/
+data/
+recordings/
+exports/
+*.wav
+*.wave
+*.mp3
+*.m4a
+*.aiff
+*.flac
+*.ogg
+*.opus
+
+# Model weights and downloaded checkpoints
+models/
+**/models/
+**/model/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.mlx
+*.gguf
+
+# Local environments, caches and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+*.log
+*.db
+*.sqlite
+*.sqlite3
