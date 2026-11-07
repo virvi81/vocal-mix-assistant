@@ -1,0 +1,7 @@
+{
+  "source_repo": "Neywa-Labs/mlx-audio",
+  "source_commit": "b1db0f21c1767b40b3496927f12df67495f0088b",
+  "model_id": "mlx-community/MOSS-Music-8B-Thinking-8bit",
+  "model_revision": "7b2c41e689a46bbd7b395619ce9fd96041ff984c",
+  "python": "3.12.10"
+}
